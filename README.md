@@ -14,11 +14,11 @@ var notEight = require('is-not-eight');
 
 if(notEight(8))
 {
-  console.log("It is eight indeed!");
+  console.log("It is not eight. What a shame!");
 }
 else
 {
-  console.log("It is not eight. What a shame!");
+  console.log("It is eight indeed!");
 }
 ```
 
