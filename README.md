@@ -1,18 +1,18 @@
-# is-eight
-NPM package for checking if a number is equal to 8.
+# is-not-eight
+NPM package for checking if a number is not equal to 8.
 
 ## Installation
 
 ``` bash
-$ npm install is-eight
+$ npm install is-not-eight
 ```
 
 ## Usage
 
 ``` js
-var eight = require('is-eight');
+var notEight = require('is-not-eight');
 
-if(eight(8))
+if(notEight(8))
 {
   console.log("It is eight indeed!");
 }
